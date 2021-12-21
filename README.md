@@ -2,7 +2,7 @@
 
 ### Architecture
 
-![system](/Users/wujinyao/Desktop/code/system.png)
+![system](system.png)
 
 One ESP8266 reads raw Photoplethysmography(PPG) data from MAX30102 sensor via I2C bus and send raw data into the cloud via API post requests. A Lithium battery is uesed to power the unit.
 
