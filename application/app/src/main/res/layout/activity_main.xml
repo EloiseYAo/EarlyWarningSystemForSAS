@@ -1,0 +1,143 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2197db"
+    tools:context="com.example.drawdemo.MainActivity" 
+    xmlns:app="http://schemas.android.com/apk/res/com.example.drawdemo">
+
+    <LinearLayout
+	    android:id="@+id/top"
+	    android:layout_width="match_parent"
+	    android:layout_height="45.0dip"
+	    android:gravity="center_horizontal"
+	    android:orientation="horizontal"
+	    android:weightSum="2" >
+
+     <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"         
+            android:background="#FFFFFF" 
+	        android:layout_alignParentLeft="true">
+
+		 <TextView
+			 android:id="@+id/shouye"
+			 android:layout_width="fill_parent"
+			 android:layout_height="fill_parent"
+			 android:gravity="center"
+			 android:text="Home"
+			 android:textSize="20.0dip" />
+	        
+       </RelativeLayout>
+       
+       <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"            
+            android:background="#FFFFFF" 
+	        android:layout_alignParentRight="true">
+
+		   <TextView
+			   android:id="@+id/xinlvtu"
+			   android:layout_width="fill_parent"
+			   android:layout_height="fill_parent"
+			   android:gravity="center"
+			   android:text="Heart Rate Diagram"
+			   android:textSize="20.0dip"
+			   android:textStyle="bold" />
+	        
+       </RelativeLayout>
+    
+    </LinearLayout>
+
+    <LinearLayout
+	    android:id="@+id/hongxian"
+	    android:layout_width="match_parent"
+	    android:layout_height="5.0dip"
+	    android:gravity="center_horizontal"
+	    android:orientation="horizontal"
+	    android:layout_below="@id/top"
+	    android:weightSum="2" >
+
+       <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"         
+            android:background="#FFFFFF" 
+	        android:layout_alignParentLeft="true">       
+       </RelativeLayout>
+       
+       <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"            
+            android:background="#ffcd2626" 
+	        android:layout_alignParentRight="true">	        
+       </RelativeLayout>
+    
+    </LinearLayout>
+    
+    <RelativeLayout		
+        android:id="@+id/middle"
+        android:layout_width="fill_parent"
+        android:layout_height="260.0dip"
+        android:background="#FFFFFF"
+        android:layout_marginTop="20.0dip"
+	    android:layout_marginLeft="20.0dip"  
+	    android:layout_marginRight="20.0dip"        
+	    android:layout_below="@id/hongxian">
+    
+        <com.example.drawdemo.DemoView 
+		    android:id="@+id/demoview"
+		    app:border_color="#ea5514"
+		    app:border_width="1dp" 
+		    android:background="#FFFFFF"
+		    android:layout_centerHorizontal="true"        
+		    android:layout_width="fill_parent"
+		    android:layout_height="260dp"/>
+    </RelativeLayout>
+
+
+	<LinearLayout
+		android:id="@+id/blew"
+		android:layout_width="match_parent"
+		android:layout_height="120.0dip"
+		android:layout_below="@id/middle"
+		android:layout_marginLeft="20.0dip"
+		android:layout_marginTop="20.0dip"
+		android:layout_marginRight="20.0dip"
+		android:background="#eee"
+		android:gravity="center_horizontal"
+		android:orientation="horizontal"
+		android:weightSum="2">
+
+		<RelativeLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_alignParentRight="true"
+			android:layout_weight="1"
+			android:background="#FFFFFF">
+
+			<TextView
+				android:id="@+id/gaowei"
+				android:layout_width="fill_parent"
+				android:layout_height="70.0dip"
+				android:gravity="center"
+				android:text="Risk Prediction"
+				android:textSize="20.0dip" />
+
+			<TextView
+				android:id="@+id/gwval"
+				android:layout_width="fill_parent"
+				android:layout_height="50.0dip"
+				android:layout_below="@id/gaowei"
+				android:gravity="center"
+				android:text="0"
+				android:textSize="20.0dip" />
+		</RelativeLayout>
+
+	</LinearLayout>
+    
+
+</RelativeLayout>

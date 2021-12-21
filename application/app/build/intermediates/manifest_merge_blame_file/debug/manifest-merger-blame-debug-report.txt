@@ -1,0 +1,61 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.drawdemo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->D:\AndroidStudioProjects\ECGDrawMeasureDemo\app\src\main\AndroidManifest.xml:7:5-9:41
+8        android:minSdkVersion="14"
+8-->D:\AndroidStudioProjects\ECGDrawMeasureDemo\app\src\main\AndroidManifest.xml:8:9-35
+9        android:targetSdkVersion="21" />
+9-->D:\AndroidStudioProjects\ECGDrawMeasureDemo\app\src\main\AndroidManifest.xml:9:9-38
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->D:\AndroidStudioProjects\ECGDrawMeasureDemo\app\src\main\AndroidManifest.xml:11:5-12:65
+11-->D:\AndroidStudioProjects\ECGDrawMeasureDemo\app\src\main\AndroidManifest.xml:12:9-63
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\AndroidStudioProjects\ECGDrawMeasureDemo\app\src\main\AndroidManifest.xml:13:5-14:53
+12-->D:\AndroidStudioProjects\ECGDrawMeasureDemo\app\src\main\AndroidManifest.xml:14:9-51
+13
+14    <application
+14-->D:\AndroidStudioProjects\ECGDrawMeasureDemo\app\src\main\AndroidManifest.xml:16:5-34:19
+15        android:allowBackup="true"
+15-->D:\AndroidStudioProjects\ECGDrawMeasureDemo\app\src\main\AndroidManifest.xml:17:9-35
+16        android:debuggable="true"
+17        android:icon="@drawable/ic_launcher"
+17-->D:\AndroidStudioProjects\ECGDrawMeasureDemo\app\src\main\AndroidManifest.xml:18:9-45
+18        android:label="@string/app_name"
+18-->D:\AndroidStudioProjects\ECGDrawMeasureDemo\app\src\main\AndroidManifest.xml:19:9-41
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->D:\AndroidStudioProjects\ECGDrawMeasureDemo\app\src\main\AndroidManifest.xml:20:9-40
+21        <activity
+21-->D:\AndroidStudioProjects\ECGDrawMeasureDemo\app\src\main\AndroidManifest.xml:21:9-29:20
+22            android:name="com.example.drawdemo.signin"
+22-->D:\AndroidStudioProjects\ECGDrawMeasureDemo\app\src\main\AndroidManifest.xml:22:13-35
+23            android:label="@string/app_name" >
+23-->D:\AndroidStudioProjects\ECGDrawMeasureDemo\app\src\main\AndroidManifest.xml:23:13-45
+24            <intent-filter>
+24-->D:\AndroidStudioProjects\ECGDrawMeasureDemo\app\src\main\AndroidManifest.xml:24:13-28:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->D:\AndroidStudioProjects\ECGDrawMeasureDemo\app\src\main\AndroidManifest.xml:25:17-69
+25-->D:\AndroidStudioProjects\ECGDrawMeasureDemo\app\src\main\AndroidManifest.xml:25:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->D:\AndroidStudioProjects\ECGDrawMeasureDemo\app\src\main\AndroidManifest.xml:27:17-77
+27-->D:\AndroidStudioProjects\ECGDrawMeasureDemo\app\src\main\AndroidManifest.xml:27:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity android:name="com.example.drawdemo.FirstPage" />
+30-->D:\AndroidStudioProjects\ECGDrawMeasureDemo\app\src\main\AndroidManifest.xml:30:9-56
+30-->D:\AndroidStudioProjects\ECGDrawMeasureDemo\app\src\main\AndroidManifest.xml:30:19-44
+31        <activity
+31-->D:\AndroidStudioProjects\ECGDrawMeasureDemo\app\src\main\AndroidManifest.xml:31:9-33:56
+32            android:name="com.example.drawdemo.MainActivity"
+32-->D:\AndroidStudioProjects\ECGDrawMeasureDemo\app\src\main\AndroidManifest.xml:32:13-41
+33            android:launchMode="singleTask" />
+33-->D:\AndroidStudioProjects\ECGDrawMeasureDemo\app\src\main\AndroidManifest.xml:33:13-44
+34    </application>
+35
+36</manifest>

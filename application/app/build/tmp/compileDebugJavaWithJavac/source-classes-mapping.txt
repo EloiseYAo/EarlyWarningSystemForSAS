@@ -1,0 +1,17 @@
+com/example/drawdemo/BuildConfig.java
+ com.example.drawdemo.BuildConfig
+com/example/drawdemo/SomeValue.java
+ com.example.drawdemo.SomeValue
+com/example/drawdemo/DemoView.java
+ com.example.drawdemo.DemoView
+com/example/drawdemo/signin.java
+ com.example.drawdemo.signin
+com/example/drawdemo/MainActivity.java
+ com.example.drawdemo.MainActivity
+ com.example.drawdemo.MainActivity$1
+ com.example.drawdemo.MainActivity$2
+ com.example.drawdemo.MainActivity$3
+com/example/drawdemo/FirstPage.java
+ com.example.drawdemo.FirstPage
+ com.example.drawdemo.FirstPage$1
+ com.example.drawdemo.FirstPage$2

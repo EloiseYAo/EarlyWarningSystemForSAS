@@ -1,0 +1,1 @@
+mpfshell -nc "open COM3; mput main.py"

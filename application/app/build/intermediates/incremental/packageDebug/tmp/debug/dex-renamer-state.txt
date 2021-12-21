@@ -1,0 +1,4 @@
+#Sun Dec 12 16:19:40 EST 2021
+base.0=D\:\\AndroidStudioProjects\\ECGDrawMeasureDemo\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
